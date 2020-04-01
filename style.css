@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #1e2227;
+} 
+
+/* Calc */
+
+#screen{
+	padding:1rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	color: #fff;
+	text-align: right;
+	font-size: 2rem;
+	height: 2rem;
+}
+
+#calc{
+	width:80%;
+	max-width: 600px;
+}
+
+.calc-button:hover {
+	background-color: #b3bac0;
+}
+
+.calc-button {
+	background: #eaf0f5;
+	cursor: pointer;
+	color: #000;
+	padding: 1rem;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+#equals:hover{
+	background: #1e7e45;
+}
+
+.container {
+	background: #1e2227; 
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#button-layout {
+	display: grid;
+	gap:0.5rem;
+  grid-template-areas: 
+  'clear open-bracket close-bracket divide'
+  'number-seven number-eight number-nine multiplication'
+  'number-four number-five number-six subtraction'
+	'number-three number-two number-one addition'
+	'number-zero number-zero point equals';
+}
+
+.action{
+	background: coral;
+	color: #fff;
+}
+
+.action:hover{
+	background: rgb(190, 92, 56);
+}
+
+/* Individual buttons */
+#equals{
+	background: #29af5f;
+	color: #fff;
+	grid-area: equals;
+}
+
+#divide{
+	grid-area: divide;
+}
+
+#multiplication{
+	grid-area: multiplication;
+}
+
+#subtraction{
+	grid-area: subtraction;
+}
+
+#clear{
+	grid-area: clear;
+}
+
+#open-bracket{
+	grid-area: open-bracket;
+}
+
+#number-zero {
+	grid-area: number-zero;
+}
+
+#number-one{
+	grid-area: number-one;
+}
+
+#number-two{
+	grid-area: number-two;
+}
+
+#number-three{
+	grid-area: number-three;
+}
+
+#number-four{
+	grid-area: number-four;
+}
+
+#number-five{
+	grid-area: number-five;
+}
+
+#number-six{
+	grid-area: number-six;
+}
+
+#number-seven{
+	grid-area: number-seven;
+}
+
+#number-eight{
+	grid-area: number-eight;
+}
+
+#number-nine{
+	grid-area: number-nine;
+}
+
+#pont{
+	grid-area: point;
+}
+
+
+
+
+
